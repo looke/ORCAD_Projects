@@ -1,0 +1,91 @@
+(ExpressProject "OmronEncoder"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library"))
+      (File ".\library2.olb"
+        (Type "Schematic Library"))
+      (File ".\library3.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\omronencoder.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "D:\DEVELOP\ORCAD\Schematic\omronencoder.dsn")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "D:\DEVELOP\ORCAD\Schematic\library1.olb")
+      (Path "Design Resources" "Library"
+         "D:\DEVELOP\ORCAD\Schematic\library2.olb")
+      (Path "Design Resources" "Library"
+         "D:\DEVELOP\ORCAD\Schematic\library3.olb")
+      (Select "Design Resources" "Library"
+         "D:\DEVELOP\ORCAD\Schematic\library1.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 586"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 75 1208 75 699")
+        (Scroll "414 180")
+        (Zoom "220")
+        (Occurrence "/"))
+      (Path "D:\DEVELOP\ORCAD\SCHEMATIC\OMRONENCODER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1233 100 724")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "3195 1608")
+        (Zoom "687"))
+      (Path "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (Package "TLP521-2"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1258 125 749")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "3195 1608")
+        (Zoom "687"))
+      (Path "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (Package "OmronE6A2")))
+  (PartMRUSelector
+    ("RESISTOR 1X5"
+      (FullPartName "RESISTOR 1X5.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\OLDLIBS\ASSEMBLY.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (OmronE6A2
+      (FullPartName "OmronE6A2.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TLP521-2
+      (FullPartName "TLP521-2.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))))

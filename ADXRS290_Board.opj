@@ -1,0 +1,135 @@
+(ExpressProject "ArduinoToSigmaSensorConnectorBD"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library"))
+      (File ".\library2.olb"
+        (Type "Schematic Library"))
+      (File ".\library3.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\arduinotosigmasensorconnectorbd.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "SpirideConnector_TripleSPI-V2.0-Mirror.ASC")
+    (OTHER_Netlist_File2 "ARDUINOTOSIGMASENSORCONNECTORBD.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orpads2k.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs"
+    (File ".\arduinotosigmasensorconnectorbd.asc"
+      (Type "Report"))
+    (File ".\arduinotosigmasensorconnectorbd-test.asc"
+      (Type "Report"))
+    (File ".\arduinotosigmasensorconnectorbd-test-v2.asc"
+      (Type "Report"))
+    (File ".\arduinotosigmasensorconnectorbd-test-v2.2.asc"
+      (Type "Report"))
+    (File ".\arduinotosigmasensorconnectorbd-test-v2.3.asc"
+      (Type "Report"))
+    (File ".\arduinotosigmasensorconnectorbd-test-v2.4.net"
+      (Type "Report"))
+    (File ".\arduinotosigmasensorconnectorbd-test-v2.4.asc"
+      (Type "Report"))
+    (File ".\spirideconnector_doublespi-v1.0.asc"
+      (Type "Report"))
+    (File ".\spirideconnector_doublespi-v1.1.asc"
+      (Type "Report"))
+    (File ".\spirideconnector_triplespi-v1.0.asc"
+      (Type "Report"))
+    (File ".\spirideconnector_triplespi-v2.0.asc"
+      (Type "Report"))
+    (File ".\spirideconnector_triplespi-v2.0-mirror.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\arduinotosigmasensorconnectorbd.dsn")
+      (Path "Design Resources" ".\arduinotosigmasensorconnectorbd.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 586"))
+      (Tab 0)))
+  (PartMRUSelector
+    (SN74AHC1G14
+      (FullPartName "SN74AHC1G14.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (MicroSwitch
+      (FullPartName "MicroSwitch.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON7
+      (FullPartName "CON7.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON16
+      (FullPartName "CON16.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON14
+      (FullPartName "CON14.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (7414
+      (FullPartName "7414.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\IEEELIBS\IEEEGATE.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R2
+      (FullPartName "R2.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Cadence\SPB_16.3\tools\capture\library\oldlibs")
+  (MPSSessionName "looke")
+  (ISPCBBASICLICENSE "false"))

@@ -1,0 +1,90 @@
+(ExpressProject "MPU9250_TestBoard"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library"))
+      (File ".\library2.olb"
+        (Type "Schematic Library"))
+      (File ".\library3.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\mpu9250_testboard.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "MPU9250_TESTBOARD.ASC")
+    (OTHER_Netlist_File2 "MPU9250_TESTBOARD.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orpads2k.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\mpu9250_testboard.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\DEVELOP\ORCAD\Schematic\mpu9250_testboard.dsn")
+      (Path "Design Resources"
+         "D:\DEVELOP\ORCAD\Schematic\mpu9250_testboard.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "D:\DEVELOP\ORCAD\Schematic\mpu9250_testboard.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "D:\DEVELOP\ORCAD\Schematic\library1.olb")
+      (Path "Design Resources" "Library"
+         "D:\DEVELOP\ORCAD\Schematic\library2.olb")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 586"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 150 1278 150 774")
+        (Scroll "220 110")
+        (Zoom "218")
+        (Occurrence "/"))
+      (Path "D:\DEVELOP\ORCAD\SCHEMATIC\MPU9250_TESTBOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (PartMRUSelector
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (XC6206P332
+      (FullPartName "XC6206P332.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (MPU9250
+      (FullPartName "MPU9250.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false"))

@@ -1,0 +1,76 @@
+(ExpressProject "ADXRS453MountV2"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library"))
+      (File ".\library2.olb"
+        (Type "Schematic Library"))
+      (File ".\library3.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\lis3mdl_mountv1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "LIS3MDL_MOUNTV1.0.ASC")
+    (OTHER_Netlist_File2 "ADXRS453MOUNTV2.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orpads2k.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\adxrs453mountv2.asc"
+      (Type "Report"))
+    (File ".\adxrs453mountv2.2.asc"
+      (Type "Report"))
+    (File ".\lis3mdl_mountv1.0.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\lis3mdl_mountv1.dsn")
+      (Path "Design Resources" ".\lis3mdl_mountv1.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Path "Design Resources" "Library" ".\library2.olb")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 586"))
+      (Tab 0)))
+  (PartMRUSelector
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ADXRS453Z-Connect
+      (FullPartName "ADXRS453Z-Connect.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (LIS3MDL
+      (FullPartName "LIS3MDL.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (XC6206P332
+      (FullPartName "XC6206P332.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SCA830-D07
+      (FullPartName "SCA830-D07.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY3.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "looke"))

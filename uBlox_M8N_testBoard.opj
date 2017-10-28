@@ -1,0 +1,134 @@
+(ExpressProject "uBlox_M8N_testBoard"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\ublox_m8n_testboard.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "UBLOX_M8N_TESTBOARD_V3.0.ASC")
+    (OTHER_Netlist_File2 "UBLOX_M8N_TESTBOARD.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orpads2k.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\ublox_m8n_testboard.asc"
+      (Type "Report"))
+    (File ".\ublox_m8n_testboard_v2.asc"
+      (Type "Report"))
+    (File ".\ublox_m8n_testboard_v2.2.asc"
+      (Type "Report"))
+    (File ".\ublox_m8n_testboard_v3.0.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (MiniUSB-B
+      (FullPartName "MiniUSB-B.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (USBLC6
+      (FullPartName "USBLC6.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (XC6206P332
+      (FullPartName "XC6206P332.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (IPEX
+      (FullPartName "IPEX.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SMA-KE8
+      (FullPartName "SMA-KE8.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (UBLOX-M8N
+      (FullPartName "UBLOX-M8N.Normal")
+      (LibraryName "D:\DEVELOP\ORCAD\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON14
+      (FullPartName "CON14.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("24 PIN"
+      (FullPartName "24 PIN.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\OLDLIBS\ASSEMBLY.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\ublox_m8n_testboard.dsn")
+      (Path "Design Resources" ".\ublox_m8n_testboard.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\ublox_m8n_testboard.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Select "Design Resources" "Library" ".\library1.olb" "SN74AHC1G14"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 582"))
+      (Tab 1))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 125 1244 125 749")
+        (Scroll "-114 -8")
+        (Zoom "118")
+        (Occurrence "/"))
+      (Path "D:\DEVELOP\ORCAD\SCHEMATIC\UBLOX_M8N_TESTBOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory "D:\Develop\ORCAD\Schematic")
+  (MPSSessionName "looke"))
