@@ -54,17 +54,7 @@
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 0 200 0 586"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 986 125 719")
-        (Scroll "0 0")
-        (Zoom "112")
-        (Occurrence "/"))
-      (Path "D:\DEVELOP\ORCAD\SCHEMATIC\ARDUINOTOSIGMASENSORCONNECTORBD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Tab 0)))
   (PartMRUSelector
     (GND
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")

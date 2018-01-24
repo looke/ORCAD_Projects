@@ -1,0 +1,304 @@
+(PCB ICARPOWERBOARD
+ (description
+  (timeStamp "2018 01 23 11 40 08")
+  (program "CAPTURE.EXE" (Version "16.3.0.p002"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "Tuesday, January 23, 2018")
+  (document "D:\\DEVELOPWORKSPACE\\GITHUB\\ORCAD_PROJECTS\\ICARPOWERBOARD.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component CON2
+   (place J1
+    (property 
+     ("PCB Footprint" "SIP-2-WITH-LAYER3-100MIL")
+     (timestamp 00000640)
+     ("Source Package" CON2)
+     (Value CON2)))
+   (place J2
+    (property 
+     ("PCB Footprint" "SIP-2-WITH-LAYER3-100MIL")
+     (timestamp 00000650)
+     ("Source Package" CON2)
+     (Value CON2)))
+   (place J3
+    (property 
+     ("PCB Footprint" "SIP-2-WITH-LAYER3-100MIL")
+     (timestamp 00000660)
+     ("Source Package" CON2)
+     (Value CON2))))
+  (component PowerSwitch
+   (place S4
+    (property 
+     ("PCB Footprint" "POWERSWITCH-DIP-CORNER")
+     (timestamp 00000069)
+     ("Source Package" PowerSwitch)
+     (Value PowerSwitch))))
+  (component "SPX1117M3-5"
+   (place S1
+    (property 
+     ("PCB Footprint" SPX1117)
+     (timestamp 00000028)
+     ("Source Package" "SPX1117M3-5")
+     (Value SPX1117)))
+   (place S2
+    (property 
+     ("PCB Footprint" SPX1117)
+     (timestamp 0000003A)
+     ("Source Package" "SPX1117M3-5")
+     (Value SPX1117)))
+   (place S3
+    (property 
+     ("PCB Footprint" SPX1117)
+     (timestamp 0000004C)
+     ("Source Package" "SPX1117M3-5")
+     (Value SPX1117))))
+  (component RESISTOR
+   (place R1
+    (property 
+     ("PCB Footprint" 0603)
+     (timestamp 0000009B)
+     ("Source Package" RESISTOR)
+     (Value 1K)))
+   (place R2
+    (property 
+     ("PCB Footprint" 0603)
+     (timestamp 000000AB)
+     ("Source Package" RESISTOR)
+     (Value 330)))
+   (place R3
+    (property 
+     ("PCB Footprint" 0603)
+     (timestamp 000000BB)
+     ("Source Package" RESISTOR)
+     (Value 1K)))
+   (place R4
+    (property 
+     ("PCB Footprint" 0603)
+     (timestamp 000000CB)
+     ("Source Package" RESISTOR)
+     (Value 330)))
+   (place R5
+    (property 
+     ("PCB Footprint" 0603)
+     (timestamp 000000E4)
+     ("Source Package" RESISTOR)
+     (Value 1K)))
+   (place R6
+    (property 
+     ("PCB Footprint" 0603)
+     (timestamp 000000F4)
+     ("Source Package" RESISTOR)
+     (Value 330))))
+  (component CAP
+   (place C1
+    (property 
+     ("PCB Footprint" 3528)
+     (timestamp 0000010D)
+     ("Source Package" CAP)
+     (Value 4.7uF)))
+   (place C2
+    (property 
+     ("PCB Footprint" 3528)
+     (timestamp 0000011D)
+     ("Source Package" CAP)
+     (Value 10uF)))
+   (place C3
+    (property 
+     ("PCB Footprint" 3528)
+     (timestamp 0000012D)
+     ("Source Package" CAP)
+     (Value 10uF)))
+   (place C4
+    (property 
+     ("PCB Footprint" 3528)
+     (timestamp 0000013D)
+     ("Source Package" CAP)
+     (Value 4.7uF)))
+   (place C5
+    (property 
+     ("PCB Footprint" 3528)
+     (timestamp 0000014D)
+     ("Source Package" CAP)
+     (Value CAP)))
+   (place C6
+    (property 
+     ("PCB Footprint" 3528)
+     (timestamp 0000015D)
+     ("Source Package" CAP)
+     (Value CAP)))
+   (place C7
+    (property 
+     ("PCB Footprint" 3528)
+     (timestamp 0000016D)
+     ("Source Package" CAP)
+     (Value CAP)))
+   (place C8
+    (property 
+     ("PCB Footprint" 3528)
+     (timestamp 0000017D)
+     ("Source Package" CAP)
+     (Value CAP)))
+   (place C9
+    (property 
+     ("PCB Footprint" 3528)
+     (timestamp 0000018D)
+     ("Source Package" CAP)
+     (Value CAP))))
+  (component Battery_18650
+   (place B1
+    (property 
+     ("PCB Footprint" "BATTERYBOX-18650-2")
+     (timestamp 00000082)
+     ("Source Package" Battery_18650)
+     (Value Battery_18650)))))
+ (library
+  (image Battery_18650
+   (property 
+    (sourcelib D:\\DEVELOPWORKSPACE\\GITHUB\\ORCAD_LIB\\LIBRARY1.OLB))
+   (pin 999 1
+    (property 
+     (pinname +)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname "-")
+     (pintype 4))))
+  (image RESISTOR
+   (property 
+    (sourcelib D:\\DEVELOPPROGRAMFILES\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image CAP
+   (property 
+    (sourcelib D:\\DEVELOPPROGRAMFILES\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "SPX1117M3-5"
+   (property 
+    (sourcelib D:\\DEVELOPWORKSPACE\\GITHUB\\ORCAD_LIB\\LIBRARY1.OLB))
+   (pin 999 1
+    (property 
+     (pinname Adj/GND)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname Vout)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname Vin)
+     (pintype 4))))
+  (image PowerSwitch
+   (property 
+    (sourcelib D:\\DEVELOPWORKSPACE\\GITHUB\\ORCAD_LIB\\LIBRARY1.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4))))
+  (image CON2
+   (property 
+    (sourcelib D:\\DEVELOPPROGRAMFILES\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))))
+ (network
+  (net GND_POWER
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     B1-2 R1-2 R3-2 R5-2 C1-2 C2-2 C3-2 C4-2 C5-2
+     C6-2 C7-2 C8-2 C9-2 J1-2 J2-2 J3-2))
+  (net N00488
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     S4-3 B1-1))
+  (net N00499
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     S1-3 S2-3 S3-3 S4-2 C1-1 C4-1 C7-1))
+  (net N00623
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     S1-2 R2-1 C3-1 J1-1))
+  (net N00627
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     S1-1 R1-1 R2-2 C2-1))
+  (net N00791
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     S2-2 R4-1 C6-1 J2-1))
+  (net N00795
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     S2-1 R3-1 R4-2 C5-1))
+  (net N00923
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     S3-2 R6-1 C9-1 J3-1))
+  (net N00927
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     S3-1 R5-1 R6-2 C8-1)))
+)

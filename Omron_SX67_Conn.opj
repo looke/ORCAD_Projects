@@ -76,26 +76,25 @@
       (Path "Design Resources" ".\antennaconn.dsn")
       (Path "Design Resources" ".\antennaconn.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "d:\cadence\spb_16.3\tools\capture\library\library1.olb")
-      (Path "Design Resources" "Library"
-         "D:\Develop\ORCAD\Schematic\library1.olb")
       (Path "Outputs"))
-    (HierarchyView)
+    (HierarchyView
+      (Path "SCHEMATIC1")
+      (Select "SCHEMATIC1" "J1 (CON4)"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 331 0 556"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 331 0 556"))
       (Tab 1))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 88 1212 94 714")
-        (Scroll "1099 628")
-        (Zoom "400")
+        (Placement "44 2 3 -1 -1 -8 -30 25 1301 25 609")
+        (Scroll "-65 -6")
+        (Zoom "113")
         (Occurrence "/"))
-      (Path "D:\DEVELOP\ORCAD\SCHEMATIC\ANTENNACONN.DSN")
+      (Path "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_PROJECTS\ANTENNACONN.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (ISPCBBASICLICENSE "false")
-  (MPSSessionName "looke"))
+  (MPSSessionName "looke")
+  (LastUsedLibraryBrowseDirectory "D:\DevelopWorkSpace\Github\ORCAD_Lib"))

@@ -1,0 +1,102 @@
+(ExpressProject "iCarPowerBoard"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\orcad_lib\library1.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\developprogramfiles\cadence\spb_16.3\tools\capture\library\connector.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\developprogramfiles\cadence\spb_16.3\tools\capture\library\discrete.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\developprogramfiles\cadence\spb_16.3\tools\capture\library\misc.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\icarpowerboard.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "ICARPOWERBOARD.ASC")
+    (OTHER_Netlist_File2 "ICARPOWERBOARD.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orpads2k.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\icarpowerboard.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (Battery_18650
+      (FullPartName "Battery_18650.Normal")
+      (LibraryName "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (PowerSwitch
+      (FullPartName "PowerSwitch.Normal")
+      (LibraryName "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SPX1117M3-5
+      (FullPartName "SPX1117M3-5.Normal")
+      (LibraryName "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\icarpowerboard.dsn")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 542"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 208 1480 15 595")
+        (Scroll "-211 -6")
+        (Zoom "113")
+        (Occurrence "/"))
+      (Path "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_PROJECTS\ICARPOWERBOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "looke"))

@@ -110,25 +110,27 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\ublox_m8n_testboard.dsn")
       (Path "Design Resources" ".\ublox_m8n_testboard.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\ublox_m8n_testboard.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb")
-      (Select "Design Resources" "Library" ".\library1.olb" "SN74AHC1G14"))
-    (HierarchyView)
+      (Path "Outputs")
+      (Select "Design Resources" "Library" ".\library1.olb"))
+    (HierarchyView
+      (Path "SCHEMATIC1")
+      (Select "SCHEMATIC1" "C1 (1UF)"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 582"))
-      (Tab 1))
+        (Placement "44 0 1 -1 -1 -8 -30 0 429 0 582"))
+      (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 125 1244 125 749")
-        (Scroll "-114 -8")
-        (Zoom "118")
+        (Placement "44 0 1 -1 -1 -1 -1 290 1599 154 734")
+        (Scroll "-145 0")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\DEVELOP\ORCAD\SCHEMATIC\UBLOX_M8N_TESTBOARD.DSN")
+      (Path "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_PROJECTS\UBLOX_M8N_TESTBOARD.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (LastUsedLibraryBrowseDirectory "D:\Develop\ORCAD\Schematic")
+  (LastUsedLibraryBrowseDirectory
+     "D:\DevelopProgramFiles\Cadence\SPB_16.3\tools\capture\library")
   (MPSSessionName "looke"))
