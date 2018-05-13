@@ -1,0 +1,304 @@
+
+**** 04/05/18 10:10:55 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\kingcello_diff_inputstage-pspicefiles\schematic1\bias.sim
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of D:\DevelopProgramFiles\Cadence\SPB_16.5\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OP
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source KINGCELLO_DIFF_INPUTSTAGE
+Q_Q1         N14814 N15272 N14788 MPS8099
+Q_Q2         N14818 N15268 N14792 MPS8099
+J_J1         VOUT1 N14950 N14814 J2N4391 
+J_J2         VOUT2 N14954 N14818 J2N4391 
+Q_Q3         N14691 N14668 N14664 Q2SC1815
+Q_Q4         N14770 N14691 N14668 Q2SC1815
+R_R1         N14770 N14788  10 TC=0,0 
+R_R2         N14770 N14792  10 TC=0,0 
+V_V1         N14931 0 25Vdc
+V_V2         0 N14664 25Vdc
+R_R3         N14664 N14668  150 TC=0,0 
+R_R4         N14788 N14950  60 TC=0,0 
+R_R5         N14792 N14954  60 TC=0,0 
+R_R6         VOUT1 N14931  1K TC=0,0 
+R_R7         VOUT2 N14931  1K TC=0,0 
+R_R8         0 N15268  1K TC=0,0 
+R_R9         N15272 VIN1  1K TC=0,0 
+V_V3         VIN1 0  
++SIN 0 0.01 1K 0 0 0
+Q_Q7         N16525 N16504 N16508 Q2SC1815
+Q_Q8         N16532 N16525 N16504 Q2SC1815
+V_V6         0 N16508 12Vdc
+V_V7         N16532 0 12Vdc
+R_R12         N16504 N16508  150 TC=0,0 
+R_R13         N16525 0  10K TC=0,0 
+R_R14         N14691 0  10K TC=0,0 
+R_R11         N17796 N17814  10 TC=0,0 
+Q_Q5         VOUT3 N18076 N17810 MPS8099
+Q_Q9         N17782 N17742 N17738 Q2SC1815
+V_V5         0 N17738 25Vdc
+Q_Q10         N17796 N17782 N17742 Q2SC1815
+R_R15         N17738 N17742  150 TC=0,0 
+R_R10         N17796 N17810  10 TC=0,0 
+Q_Q6         VOUT4 N18070 N17814 MPS8099
+R_R20         0 N18070  1K TC=0,0 
+V_V4         N17910 0 25Vdc
+R_R19         VOUT4 N17910  1K TC=0,0 
+R_R22         N17782 0  10K TC=0,0 
+V_V8         VIN2 0  
++SIN 0 0.01 1K 0 0 0
+R_R18         VOUT3 N17910  1K TC=0,0 
+R_R21         N18076 VIN2  1K TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+**** 04/05/18 10:10:55 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\kingcello_diff_inputstage-pspicefiles\schematic1\bias.sim
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MPS8099         Q2SC1815        
+               NPN             NPN             
+       LEVEL    1               1            
+          IS    4.872000E-15  639.500000E-18 
+          BF    9.599000E+03  149.9          
+          NF    1               1            
+         VAF  100             172.5          
+         IKF     .1434           .8587       
+         ISE   14.650000E-15  750.100000E-18 
+          NE    1.315           1.47         
+          BR    6.935           6.575        
+          NR    1               1            
+         VAR                  100            
+         IKR                     .4534       
+         ISC                    4.653000E-15 
+          NC                    1.185        
+          NK                     .5413       
+         ISS    0               0            
+          RB   10                            
+          RE    0               0            
+          RC     .7              .7972       
+         CJE   10.490000E-12    5.000000E-12 
+         VJE     .75             .75         
+         MJE     .4602           .3333       
+         CJC    5.805000E-12    4.858000E-12 
+         VJC     .75             .75         
+         MJC     .4312           .3333       
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          TF  407.000000E-12  314.300000E-12 
+         XTF    2.5                          
+         VTF    3              10            
+         ITF     .18           13.01         
+          TR  565.000000E-12   10.000000E-09 
+         XTB    1.5             1.5          
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.42         
+           D     .87             .87         
+
+
+**** 04/05/18 10:10:55 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\kingcello_diff_inputstage-pspicefiles\schematic1\bias.sim
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               J2N4391         
+               NJF             
+         VTO   -5.803        
+        BETA    2.658000E-03 
+      LAMBDA     .013        
+          IS  205.200000E-15 
+         ISR    1.988000E-12 
+       ALPHA   20.980000E-06 
+          VK  123.7          
+          RD    1            
+          RS    1            
+         CGD    5.350000E-12 
+         CGS    4.760000E-12 
+           M     .4069       
+       VTOTC   -2.500000E-03 
+     BETATCE    -.5          
+          KF   34.430000E-18 
+
+
+**** 04/05/18 10:10:55 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\kingcello_diff_inputstage-pspicefiles\schematic1\bias.sim
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+( VIN1)    0.0000  ( VIN2)    0.0000  (VOUT1)   22.5250  (VOUT2)   22.5250      
+
+(VOUT3)   22.5240  (VOUT4)   22.5240  (N14664)  -25.0000 (N14668)  -24.2520     
+
+(N14691)  -23.4870 (N14770)    -.7332 (N14788)    -.7083 (N14792)    -.7083     
+
+(N14814)    4.2249 (N14818)    4.2249 (N14931)   25.0000 (N14950)    -.7083     
+
+(N14954)    -.7083 (N15268)    -.0117 (N15272)    -.0117 (N16504)  -11.2730     
+
+(N16508)  -12.0000 (N16525)  -10.5090 (N16532)   12.0000 (N17738)  -25.0000     
+
+(N17742)  -24.2520 (N17782)  -23.4870 (N17796)    -.7276 (N17810)    -.7027     
+
+(N17814)    -.7027 (N17910)   25.0000 (N18070)    -.0103 (N18076)    -.0103 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.950E-03
+    V_V2        -7.322E-03
+    V_V3        -1.172E-05
+    V_V6        -5.875E-03
+    V_V7        -4.824E-03
+    V_V5        -7.322E-03
+    V_V4        -4.953E-03
+    V_V8        -1.034E-05
+
+    TOTAL POWER DISSIPATION   7.42E-01  WATTS
+
+
+**** 04/05/18 10:10:55 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\kingcello_diff_inputstage-pspicefiles\schematic1\bias.sim
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** BIPOLAR JUNCTION TRANSISTORS
+
+
+NAME         Q_Q1        Q_Q2        Q_Q3        Q_Q4        Q_Q7      
+MODEL        MPS8099     MPS8099     Q2SC1815    Q2SC1815    Q2SC1815  
+IB           1.17E-05    1.17E-05    1.58E-05    3.01E-05    6.99E-06 
+IC           2.47E-03    2.47E-03    2.32E-03    4.97E-03    1.02E-03 
+VBE          6.97E-01    6.97E-01    7.48E-01    7.65E-01    7.27E-01 
+VBC         -4.24E+00   -4.24E+00   -7.65E-01   -2.28E+01   -7.64E-01 
+VCE          4.93E+00    4.93E+00    1.51E+00    2.35E+01    1.49E+00 
+BETADC       2.11E+02    2.11E+02    1.47E+02    1.65E+02    1.46E+02 
+GM           9.41E-02    9.41E-02    8.93E-02    1.91E-01    3.94E-02 
+RPI          2.88E+03    2.88E+03    1.64E+03    8.63E+02    3.72E+03 
+RX           1.00E+01    1.00E+01    0.00E+00    0.00E+00    0.00E+00 
+RO           4.21E+04    4.21E+04    7.42E+04    3.90E+04    1.68E+05 
+CBE          5.85E-11    5.85E-11    3.65E-11    6.86E-11    2.07E-11 
+CBC          2.57E-12    2.57E-12    3.84E-12    1.54E-12    3.84E-12 
+CJS          0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+BETAAC       2.71E+02    2.71E+02    1.47E+02    1.65E+02    1.47E+02 
+CBX/CBX2     0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+FT/FT2       2.45E+08    2.45E+08    3.53E+08    4.34E+08    2.56E+08 
+
+
+
+NAME         Q_Q8        Q_Q5        Q_Q9        Q_Q10       Q_Q6      
+MODEL        Q2SC1815    MPS8099     Q2SC1815    Q2SC1815    MPS8099   
+IB           2.92E-05    1.03E-05    1.58E-05    3.01E-05    1.03E-05 
+IC           4.82E-03    2.48E-03    2.32E-03    4.97E-03    2.48E-03 
+VBE          7.64E-01    6.92E-01    7.48E-01    7.65E-01    6.92E-01 
+VBC         -2.25E+01   -2.25E+01   -7.65E-01   -2.28E+01   -2.25E+01 
+VCE          2.33E+01    2.32E+01    1.51E+00    2.35E+01    2.32E+01 
+BETADC       1.65E+02    2.40E+02    1.47E+02    1.65E+02    2.40E+02 
+GM           1.85E-01    9.44E-02    8.93E-02    1.91E-01    9.44E-02 
+RPI          8.89E+02    3.27E+03    1.64E+03    8.64E+02    3.27E+03 
+RX           0.00E+00    1.00E+01    0.00E+00    0.00E+00    1.00E+01 
+RO           4.02E+04    4.95E+04    7.42E+04    3.90E+04    4.95E+04 
+CBE          6.68E-11    5.85E-11    3.65E-11    6.86E-11    5.85E-11 
+CBC          1.55E-12    1.32E-12    3.84E-12    1.54E-12    1.32E-12 
+CJS          0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+BETAAC       1.65E+02    3.09E+02    1.47E+02    1.65E+02    3.09E+02 
+CBX/CBX2     0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+FT/FT2       4.32E+08    2.51E+08    3.53E+08    4.34E+08    2.51E+08 
+
+
+
+
+**** JFETS
+
+
+NAME         J_J1        J_J2      
+MODEL        J2N4391     J2N4391   
+ID           2.47E-03    2.47E-03 
+VGS         -4.93E+00   -4.93E+00 
+VDS          1.83E+01    1.83E+01 
+GM           5.71E-03    5.71E-03 
+GDS          2.60E-05    2.60E-05 
+CGS          2.31E-12    2.31E-12 
+CGD          1.46E-12    1.46E-12 
+
+          JOB CONCLUDED
+
+**** 04/05/18 10:10:55 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\kingcello_diff_inputstage-pspicefiles\schematic1\bias.sim
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

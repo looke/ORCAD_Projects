@@ -1,0 +1,167 @@
+(ExpressProject "KingCello_OutputStage_Sim"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File "kingcello_outputstage_sim.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Netlist_TAB "4")
+    (PSPICE_Output_File
+       "KingCello_OutputStage_Sim-PSpiceFiles\BJT_Amps\BJT_Amps.NET")
+    (PSPICE_View_Output "FALSE")
+    (PSPICE_Subcircuit_Format "FALSE")
+    (PSPICE_Do_DRC_Markers "FALSE")
+    (PSPICE_Hier_Format "FALSE")
+    (PSPICE_Hier_Descend "FALSE")
+    (PSPICE_Hier_DoNot_Descend "FALSE")
+    (PSPICE_Alt_Template "PSpiceTemplate"))
+  (Folder "Outputs"
+    (File ".\kingcello_outputstage_sim-pspicefiles\bjt_amps\bjt_amps.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\kingcello_outputstage_sim-pspicefiles\bjt_amps\transient.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\kingcello_outputstage_sim-pspicefiles\bjt_amps\transient.sim"
+        (DisplayName "BJT_Amps-Transient")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File
+         ".\kingcello_outputstage_sim-pspicefiles\kingcello_outputstage_sim.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           ".\kingcello_outputstage_sim-pspicefiles\kingcello_outputstage_sim.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (Q2N3073
+      (FullPartName "Q2N3073.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (Q2N3053
+      (FullPartName "Q2N3053.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (BYV27-100
+      (FullPartName "BYV27-100.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (MPS8099
+      (FullPartName "MPS8099.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (MPS8599
+      (FullPartName "MPS8599.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (MM4258
+      (FullPartName "MM4258.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (2N5323
+      (FullPartName "2N5323.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (2N5321
+      (FullPartName "2N5321.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (40237
+      (FullPartName "40237.Normal")
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "looke")
+  (LastUsedLibraryBrowseDirectory
+     "D:\DevelopProgramFiles\Cadence\SPB_16.3\tools\capture\library\pspice")
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\DevelopWorkSpace\Github\ORCAD_Projects\kingcello_outputstage_sim.dsn")
+      (Path "Design Resources"
+         "D:\DevelopWorkSpace\Github\ORCAD_Projects\kingcello_outputstage_sim.dsn"
+         "BJT_Amps")
+      (Path "Design Resources"
+         "D:\DevelopWorkSpace\Github\ORCAD_Projects\kingcello_outputstage_sim.dsn"
+         "Design Cache")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\DevelopWorkSpace\Github\ORCAD_Projects\kingcello_outputstage_sim.dsn"
+         "BJT_Amps" "CE_CC_CB"))
+    (HierarchyView
+      (Select "BJT_Amps"))
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 546"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 1476 200 754")
+        (Scroll "0 139")
+        (Zoom "182")
+        (Occurrence "/"))
+      (Path
+         "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_PROJECTS\KINGCELLO_OUTPUTSTAGE_SIM.DSN")
+      (Schematic "BJT_Amps")
+      (Page "OutputStage"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 225 1501 225 779")
+        (Scroll "1134 566")
+        (Zoom "872")
+        (Occurrence "/"))
+      (Path
+         "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_PROJECTS\KINGCELLO_OUTPUTSTAGE_SIM.DSN")
+      (Schematic "BJT_Amps")
+      (Page "CE_CC_CB"))))

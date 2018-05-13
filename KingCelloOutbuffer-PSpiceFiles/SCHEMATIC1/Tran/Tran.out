@@ -1,0 +1,219 @@
+
+**** 04/01/18 16:26:24 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tran"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\KingCelloOutbuffer-PSpiceFiles\SCHEMATIC1\Tran.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Tran.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of D:\DevelopProgramFiles\Cadence\SPB_16.5\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN 10u 10m 0 10u 
+.FOUR 1000 8 V([OUTPUT]) 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source KINGCELLOOUTBUFFER
+X_D3         N14723 N14774 D1N5314
+X_D4         N14767 N14727 D1N5314
+Q_Q1         N14797 N14854 N14801 MPS8099
+Q_Q2         N14789 N14850 N14793 MPS8599
+Q_Q3         N14723 N14846 N14741 Q2N3053
+Q_Q4         N14749 N14763 N14727 Q2N3073
+R_R1         INPUT N14850  10 TC=0,0 
+R_R2         N14854 INPUT  10 TC=0,0 
+R_R3         N14793 N14749  10 TC=0,0 
+R_R4         N14797 N14741  10 TC=0,0 
+R_R5         N14789 N14774  51 TC=0,0 
+R_R6         N14801 N14767  51 TC=0,0 
+R_R7         N14767 N14763  10 TC=0,0 
+R_R8         N14774 N14846  10 TC=0,0 
+R_R9         OUTPUT N14741  10 TC=0,0 
+R_R10         N14749 OUTPUT  10 TC=0,0 
+V_V1         N14723 0 25Vdc
+V_V2         0 N14727 25Vdc
+R_RL         0 OUTPUT  32 TC=0,0 
+V_V3         INPUT 0  
++SIN 0 0.1 1000 0 0 0
+
+**** RESUMING Tran.cir ****
+.END
+
+**** 04/01/18 16:26:24 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tran"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\KingCelloOutbuffer-PSpiceFiles\SCHEMATIC1\Tran.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MPS8099         MPS8599         Q2N3053         Q2N3073         
+               NPN             PNP             NPN             PNP             
+       LEVEL    1               1               1               1            
+          IS    4.872000E-15   10.680000E-15   14.100000E-15  650.600000E-18 
+          BF    9.599000E+03  187.7           138.2            60.06         
+          NF    1               1               1               1            
+         VAF  100             100             100             115.7          
+         IKF     .1434           .2203           .75            1.079        
+         ISE   14.650000E-15   26.070000E-15                  211.400000E-15 
+          NE    1.315           1.401                           1.829        
+          BR    6.935           1.833           5.187           4.32         
+          NR    1               1               1               1            
+         ISS    0               0               0               0            
+          RB   10              10              10              10            
+          RE    0               0               0               0            
+          RC     .7              .8              .7              .715        
+         CJE   10.490000E-12   25.110000E-12   55.060000E-12   19.820000E-12 
+         VJE     .75             .75             .75             .75         
+         MJE     .4602           .3626           .1553           .3357       
+         CJC    5.805000E-12   14.160000E-12   15.690000E-12   14.760000E-12 
+         VJC     .75             .75             .75             .75         
+         MJC     .4312           .5585           .3603           .5383       
+        XCJC    1               1               1               1            
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+          TF  407.000000E-12  591.100000E-12  808.100000E-12  761.300000E-12 
+         XTF    2.5            50              55               1.7          
+         VTF    3              12               5               5            
+         ITF     .18            1.5             1.2              .65         
+          TR  565.000000E-12  358.600000E-09  830.800000E-12  122.000000E-09 
+         XTB    1.5             1.5             1.5             1.5          
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.42            2.2             2.42            2.2          
+           D     .87             .52             .87             .52         
+
+
+**** 04/01/18 16:26:24 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tran"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\KingCelloOutbuffer-PSpiceFiles\SCHEMATIC1\Tran.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_D3.jx         X_D4.jx         
+               NJF             NJF             
+         VTO   -2.506          -2.506        
+        BETA  750.000000E-06  750.000000E-06 
+      LAMBDA  531.900000E-06  531.900000E-06 
+           N    2               2            
+          RD    1               1            
+         CGD    6.000000E-12    6.000000E-12 
+       VTOTC   -2.500000E-03   -2.500000E-03 
+     BETATCE    -.5             -.5          
+
+
+**** 04/01/18 16:26:24 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tran"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\KingCelloOutbuffer-PSpiceFiles\SCHEMATIC1\Tran.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(INPUT)    0.0000  (N14723)   25.0000 (N14727)  -25.0000 (N14741)     .2443     
+
+(N14749)     .0207 (N14763)    -.7973 (N14767)    -.8208 (N14774)     .9577     
+
+(N14789)     .7191 (N14793)     .0509 (N14797)     .2202 (N14801)    -.6971     
+
+(N14846)     .9568 (N14850)     .0166 (N14854)-118.4E-06 (OUTPUT)     .1146 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.006E-02
+    V_V2        -1.484E-02
+    V_V3         1.647E-03
+
+    TOTAL POWER DISSIPATION   8.73E-01  WATTS
+
+
+**** 04/01/18 16:26:24 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tran"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\KingCelloOutbuffer-PSpiceFiles\SCHEMATIC1\Tran.sim ] 
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUTPUT)
+
+
+
+ DC COMPONENT =   1.146533E-01
+
+ HARMONIC   FREQUENCY    FOURIER    NORMALIZED    PHASE        NORMALIZED
+    NO         (HZ)     COMPONENT    COMPONENT    (DEG)       PHASE (DEG)
+
+     1     1.000E+03    7.869E-02    1.000E+00   -4.897E-03    0.000E+00
+     2     2.000E+03    4.499E-05    5.717E-04   -9.586E+01   -9.585E+01
+     3     3.000E+03    2.296E-06    2.918E-05   -4.909E+01   -4.907E+01
+     4     4.000E+03    7.597E-07    9.654E-06    1.603E+01    1.605E+01
+     5     5.000E+03    3.338E-07    4.242E-06    1.046E+02    1.046E+02
+     6     6.000E+03    1.657E-07    2.105E-06   -1.611E+02   -1.611E+02
+     7     7.000E+03    1.480E-07    1.881E-06   -6.395E+01   -6.391E+01
+     8     8.000E+03    2.937E-07    3.733E-06    3.419E+01    3.423E+01
+
+
+     TOTAL HARMONIC DISTORTION =   5.726020E-02 PERCENT
+
+
+          JOB CONCLUDED
+
+**** 04/01/18 16:26:24 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tran"  [ D:\DevelopWorkSpace\Github\ORCAD_Projects\KingCelloOutbuffer-PSpiceFiles\SCHEMATIC1\Tran.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

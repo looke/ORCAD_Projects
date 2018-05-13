@@ -1,0 +1,96 @@
+(ExpressProject "SDCardAdapterToNucleoF767Zi"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\orcad_lib\library1.olb"
+        (Type "Schematic Library"))
+      (File "..\orcad_lib\library2.olb"
+        (Type "Schematic Library"))
+      (File "..\orcad_lib\library3.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\sdcardadaptertonucleof767zi.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "SDCARDADAPTERTONUCLEOF767ZI.asc")
+    (OTHER_Netlist_File2 "SDCARDADAPTERTONUCLEOF767ZI.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orpads2k.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\sdcardadaptertonucleof767zi.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\sdcardadaptertonucleof767zi.dsn")
+      (Path "Design Resources" ".\sdcardadaptertonucleof767zi.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 536"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1184 175 749")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "772 313")
+        (Zoom "259"))
+      (Path "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_LIB\LIBRARY1.OLB")
+      (Package "SDCardSocket"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1351 50 624")
+        (Scroll "-102 0")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path
+         "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_PROJECTS\SDCARDADAPTERTONUCLEOF767ZI.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (PartMRUSelector
+    (GND
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName
+         "D:\DEVELOPPROGRAMFILES\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (NucleoF767Zi_SDMMCSocket
+      (FullPartName "NucleoF767Zi_SDMMCSocket.Normal")
+      (LibraryName "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SDCardSocket
+      (FullPartName "SDCardSocket.Normal")
+      (LibraryName "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory
+     "D:\DevelopProgramFiles\Cadence\SPB_16.5\tools\capture\library"))

@@ -1,0 +1,201 @@
+(PCB SDCARDADAPTERTONUCLEOF767ZI
+ (description
+  (timeStamp "2018 05 13 03 00 16")
+  (program "CAPTURE.EXE" (Version "16.5.0.p001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "Sunday, May 13, 2018")
+  (document "D:\\DEVELOPWORKSPACE\\GITHUB\\ORCAD_PROJECTS\\SDCARDADAPTERTONUCLEOF767ZI.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component CON2
+   (place J1
+    (property 
+     ("PCB Footprint" "SIP-2-WITH-LAYER3-100MIL")
+     (timestamp 000001BE)
+     ("Source Package" CON2)
+     (Value "SIP-2-WITH-LAYER3-100MIL")))
+   (place J2
+    (property 
+     ("PCB Footprint" "SIP-2-WITH-LAYER3-100MIL")
+     (timestamp 000001CE)
+     ("Source Package" CON2)
+     (Value "SIP-2-WITH-LAYER3-100MIL")))
+   (place J3
+    (property 
+     ("PCB Footprint" "SIP-2-WITH-LAYER3-100MIL")
+     (timestamp 000001DE)
+     ("Source Package" CON2)
+     (Value CON2))))
+  (component SDCardSocket
+   (place S1
+    (property 
+     ("PCB Footprint" SDCARDSOCKET)
+     (timestamp 0000003C)
+     ("Source Package" SDCardSocket)
+     (Value SDCardSocket))))
+  (component NucleoF767Zi_SDMMCSocket
+   (place NS1
+    (property 
+     ("PCB Footprint" NUCLEOF767ZI_SDMMCSOCKET)
+     (timestamp 0000006D)
+     ("Source Package" NucleoF767Zi_SDMMCSocket)
+     (Value NucleoF767Zi_SDMMCSocket))))
+  (component R
+   (place R1
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" 0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 000001F7)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 1k)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))))
+ (library
+  (image R
+   (property 
+    (sourcelib D:\\DEVELOPPROGRAMFILES\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
+    (TC2 0)
+    (TC1 0)
+    (POWER RMAX)
+    (MAX_TEMP RTMAX)
+    (SLOPE RSMAX)
+    (VOLTAGE RVMAX)
+    (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+    (DIST FLAT))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image SDCardSocket
+   (property 
+    (sourcelib D:\\DEVELOPWORKSPACE\\GITHUB\\ORCAD_LIB\\LIBRARY1.OLB))
+   (pin 999 2
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname D0)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname CMD)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname CLK)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname D3)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname D2)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname D1)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 3.3v)
+     (pintype 4))))
+  (image NucleoF767Zi_SDMMCSocket
+   (property 
+    (sourcelib D:\\DEVELOPWORKSPACE\\GITHUB\\ORCAD_LIB\\LIBRARY1.OLB))
+   (pin 999 1
+    (property 
+     (pinname D0)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname D1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname D2)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname D3)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname CLK)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname CMD)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 3.3v)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname GND)
+     (pintype 4))))
+  (image CON2
+   (property 
+    (sourcelib D:\\DEVELOPPROGRAMFILES\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))))
+ (network
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     S1-2 NS1-8 J1-2 J2-2))
+  (net N00115
+   (pins
+     S1-8 NS1-2))
+  (net N00140
+   (pins
+     S1-7 NS1-3))
+  (net N00165
+   (pins
+     S1-6 NS1-4))
+  (net N00190
+   (pins
+     S1-1 NS1-7 R1-1))
+  (net N00209
+   (pins
+     S1-5 NS1-5))
+  (net N00238
+   (pins
+     S1-4 NS1-6))
+  (net N00263
+   (pins
+     S1-3 NS1-1))
+  (net N00517
+   (pins
+     J3-1 J3-2 R1-2))
+  (net N00528
+   (pins
+     J1-1 J2-1)))
+)

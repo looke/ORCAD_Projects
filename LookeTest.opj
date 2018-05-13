@@ -1,0 +1,62 @@
+(ExpressProject "LookeTest"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\looketest.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "4")
+    (PSPICE_Output_File "LookeTest-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.NET")
+    (PSPICE_View_Output "FALSE")
+    (PSPICE_Subcircuit_Format "FALSE")
+    (PSPICE_Do_DRC_Markers "FALSE")
+    (PSPICE_Hier_Format "FALSE")
+    (PSPICE_Hier_Descend "FALSE")
+    (PSPICE_Hier_DoNot_Descend "FALSE")
+    (PSPICE_Alt_Template "PSpiceTemplate")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\looketest-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\DevelopWorkSpace\Github\ORCAD_Projects\looketest.dsn")
+      (Path "Design Resources"
+         "D:\DevelopWorkSpace\Github\ORCAD_Projects\looketest.dsn"
+         "KingCelloOutBuffer")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Select "Outputs"
+         "D:\DevelopWorkSpace\Github\ORCAD_Projects\looketest-pspicefiles\schematic1\schematic1.net"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 437"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 1023 200 675")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\DEVELOPWORKSPACE\GITHUB\ORCAD_PROJECTS\LOOKETEST.DSN")
+      (Schematic "KingCelloOutBuffer")
+      (Page "Buffer")))
+  (ISPCBBASICLICENSE "false"))
